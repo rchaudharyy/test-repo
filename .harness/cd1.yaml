@@ -37,6 +37,7 @@ pipeline:
           services:
             values:
               - serviceRef: svc1
+              - serviceRef: svc2
             metadata:
               parallel: false
         tags: {}
