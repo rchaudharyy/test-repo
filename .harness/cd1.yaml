@@ -12,8 +12,6 @@ pipeline:
         type: Deployment
         spec:
           deploymentType: Kubernetes
-          service:
-            serviceRef: svc1
           environment:
             environmentRef: env1
             deployToAll: false
@@ -36,6 +34,11 @@ pipeline:
                     outputVariables: []
                   timeout: 10m
             rollbackSteps: []
+          services:
+            values:
+              - serviceRef: svc1
+            metadata:
+              parallel: false
         tags: {}
         failureStrategies:
           - onFailure:
