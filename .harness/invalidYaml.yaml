@@ -7,9 +7,9 @@ pipeline:
   stages:
     - stage:
         name: cs1
-        identifier: cs1
+   identifier: cs1
         description: ""
-        tye: Custom
+        type: Custom
         spec:
           execution:
             steps:
