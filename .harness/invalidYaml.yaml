@@ -9,7 +9,7 @@ pipeline:
         name: cs1
         identifier: cs1
         description: ""
-        type: Custom
+        tye: Custom
         spec:
           execution:
             steps:
