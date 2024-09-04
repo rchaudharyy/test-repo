@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: infra1
+  identifier: infra1
+  orgIdentifier: default
+  projectIdentifier: RISHI_TEST_REMOTE
+  environmentRef: env1
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.Harness_Kubernetes_Cluster
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
