@@ -14,6 +14,7 @@ pipeline:
           deploymentType: Kubernetes
           service:
             serviceRef: svc1
+            serviceRef: svc1
           environment:
             environmentRef: env1
             deployToAll: false
