@@ -3,3 +3,6 @@ service:
   identifier: svc1
   orgIdentifier: default
   projectIdentifier: RISHI_TEST_REMOTE
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
