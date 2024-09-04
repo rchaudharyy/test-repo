@@ -1,0 +1,6 @@
+environment:
+  name: env1
+  identifier: env1
+  orgIdentifier: default
+  projectIdentifier: RISHI_TEST_REMOTE
+  type: PreProduction
