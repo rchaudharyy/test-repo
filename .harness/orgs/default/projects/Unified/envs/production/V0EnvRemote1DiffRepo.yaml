@@ -1,6 +1,8 @@
 environment:
   name: V0EnvRemote1DiffRepo
   identifier: V0EnvRemote1DiffRepo
+  tags:
+    branch: main
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: Unified
-  type: PreProduction
