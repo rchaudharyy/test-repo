@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: V0EnvRemote2Infra1DiffRepo
+  identifier: V0EnvRemote2Infra1DiffRepo
+  orgIdentifier: default
+  projectIdentifier: Unified
+  environmentRef: V0EnvRemote2
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: KubernetesConnectorV1
+    namespace: default-infra1-main-diff-repo
+    releaseName: release-<+INFRA_KEY_SHORT_ID>
+  allowSimultaneousDeployments: false
