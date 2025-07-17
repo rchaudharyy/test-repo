@@ -8,6 +8,6 @@ infrastructureDefinition:
   type: KubernetesDirect
   spec:
     connectorRef: KubernetesConnectorV1
-    namespace: default-remote1-diff-repo-main
+    namespace: default-remote1-diff-repo-test
     releaseName: release-<+INFRA_KEY_SHORT_ID>
   allowSimultaneousDeployments: false
